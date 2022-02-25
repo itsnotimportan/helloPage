@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    scrollbar-width: 200px;
+    height: 5000px;
+    background-color: black;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 10px solid black;
+}
+a{
+    border: 5px solid rebeccapurple;
+    padding: 10px;
+    text-decoration: none;
+    color: goldenrod;
+}
+
+header{
+    display: flex;
+}
+.blurpage{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 0 0 10px white,0 0 250px white inset;
+    opacity: 0.5;
+}
